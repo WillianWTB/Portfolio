@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willian Tavares - Desenvolvedor Full Stack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="primary-color">&lt;</span>Willian Tavares<span class="primary-color">/&gt;</span>
+            </a>
+            
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#formacao" class="nav-link">Formação</a>
+                <a href="#contato" class="nav-link">Contato</a>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon dark-hidden"></i>
+                    <i class="fas fa-sun dark-visible"></i>
+                </button>
+            </nav>
+            
+            <!-- Mobile Menu Button -->
+            <div class="mobile-menu-wrapper">
+                <button id="theme-toggle-mobile" class="theme-toggle">
+                    <i class="fas fa-moon dark-hidden"></i>
+                    <i class="fas fa-sun dark-visible"></i>
+                </button>
+                <button id="mobile-menu-button" class="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="container">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#formacao" class="nav-link">Formação</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section section-animate">
+        <div class="rgb-border-top"></div>
+        <div class="rgb-border-bottom"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-animation-delay="200">
+                    <h1>
+                        <span class="primary-color">Olá, eu sou</span> <br>
+                        <span class="rgb-text">Willian Tavares</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Desenvolvedor <span class="primary-color fw-bold">Full Stack</span>
+                    </p>
+                    <div class="code-block">
+                        <span class="code-secondary">const </span>
+                        <span class="code-green">developer</span>
+                        <span class="code-gray"> = {</span><br>
+                        <span class="ml-4 code-purple">name</span>
+                        <span class="code-gray">:</span>
+                        <span class="code-orange">'Willian Tavares'</span>
+                        <span class="code-gray">,</span><br>
+                        <span class="ml-4 code-purple">skills</span>
+                        <span class="code-gray">:</span>
+                        <span class="code-gray">[</span>
+                        <span class="code-orange">'HTML'</span>
+                        <span class="code-gray">,</span>
+                        <span class="code-orange">'CSS'</span>
+                        <span class="code-gray">,</span>
+                        <span class="code-orange">'JavaScript'</span>
+                        <span class="code-gray">...]</span><br>
+                        <span class="code-gray">};</span>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary">Contato</a>
+                        <a href="#sobre" class="btn btn-outline">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-animation-delay="400">
+                    <div class="profile-image">
+                        <img src="images/willian.jpg" alt="Willian Tavares" class="profile-img">
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:WilliantavaresTB@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+5521985866803">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/willian-tavares-6611612b8" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre-section section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Mim</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card" data-animation-delay="200">
+                    <h3>Quem sou eu</h3>
+                    <p>
+                        Olá! Meu nome é Willian e sou apaixonado por tecnologia e estou iniciando minha carreira na área de desenvolvimento Full-Stack. Possuo formação técnica em Informática pela Escola Técnica Sandra Silva e estou atualmente cursando Análise e Desenvolvimento de Sistemas.
+                    </p>
+                    <div class="info-label">
+                        <div class="icon-circle">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <p>Desenvolvedor Full Stack</p>
+                    </div>
+                </div>
+                
+                <div class="about-card" data-animation-delay="400">
+                    <h3>Objetivos</h3>
+                    <p>
+                        Meu objetivo é aumentar a visibilidade da empresa e o alcance da marca, engajar com o público e promover a fidelidade do cliente utilizando a comunicação efetiva, criatividade, conhecimento em gramática e ortografia, capacidade de trabalhar com prazos e adaptabilidade a diferentes temas e audiências.
+                    </p>
+                    <div class="info-label">
+                        <div class="icon-circle">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <p>Sempre em busca de novos desafios</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Section -->
+    <section id="habilidades" class="habilidades-section section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Minhas Habilidades</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Tecnologias e ferramentas que utilizo nos meus projetos.
+                </p>
+            </div>
+            
+            <div class="skills-bars" data-animation-delay="200">
+                <!-- HTML5 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 90%"></div>
+                    </div>
+                </div>
+                
+                <!-- CSS3 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">CSS3</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <!-- JavaScript -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <!-- PHP -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">PHP</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <!-- MySQL -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">MySQL</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 70%"></div>
+                    </div>
+                </div>
+                
+                <!-- Linux -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Linux</span>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 65%"></div>
+                    </div>
+                </div>
+                
+                <!-- Python -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 60%"></div>
+                    </div>
+                </div>
+                
+                <!-- TypeScript -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">TypeScript</span>
+                        <span class="skill-percentage">55%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tech-cards" data-animation-delay="400">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <span>HTML5</span>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <span>CSS3</span>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <span>PHP</span>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <span>MySQL</span>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <span>Linux</span>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <span>Python</span>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <span>Office</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formação Section -->
+    <section id="formacao" class="formacao-section section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Formação Acadêmica</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Minha trajetória educacional e cursos complementares.
+                </p>
+            </div>
+            
+            <div class="timeline" data-animation-delay="200">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Análise e Desenvolvimento de Sistemas</h3>
+                            <span class="timeline-tag current">2023 - 2025</span>
+                        </div>
+                        <p class="timeline-institution">UNIVERSIDADE AUGUSTO MOTTA - UNISUAM</p>
+                        <p class="timeline-status">Cursando</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Técnico em Informática</h3>
+                            <span class="timeline-tag completed">Completo</span>
+                        </div>
+                        <p class="timeline-institution">ESCOLA TÉCNICA SANDRA SILVA</p>
+                        <p class="timeline-description">Formação técnica em informática com foco em desenvolvimento de software e manutenção de hardware.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="extra-courses-title section-animate" data-animation-delay="400">Cursos Adicionais</h3>
+            
+            <div class="courses-grid section-animate" data-animation-delay="500">
+                <div class="course-card">
+                    <div class="course-header">
+                        <div class="icon-circle">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div>
+                            <h4>Informática Básica</h4>
+                            <p>SENAC</p>
+                        </div>
+                    </div>
+                    <span class="course-tag">Completo</span>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-header">
+                        <div class="icon-circle">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <div>
+                            <h4>Excel Avançado</h4>
+                            <p>SENAC</p>
+                        </div>
+                    </div>
+                    <span class="course-tag">Completo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato-section section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Vamos trabalhar juntos? Entre em contato por qualquer um dos canais abaixo.
+                </p>
+            </div>
+            
+            <div class="contact-cards section-animate" data-animation-delay="200">
+                <a href="mailto:WilliantavaresTB@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>WilliantavaresTB@gmail.com</p>
+                </a>
+                
+                <a href="tel:+5521985866803" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Telefone</h3>
+                    <p>(21) 98586-6803</p>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/willian-tavares-6611612b8" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>willian-tavares</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#home" class="footer-logo">
+                        <span class="primary-color">&lt;</span>Willian Tavares<span class="primary-color">/&gt;</span>
+                    </a>
+                    <p>Desenvolvedor Full Stack</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="mailto:WilliantavaresTB@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+5521985866803">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/willian-tavares-6611612b8" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2023 Willian Tavares. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
